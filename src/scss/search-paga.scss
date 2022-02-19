@@ -1,0 +1,56 @@
+h1 {
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+}
+.search-form{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+      .input-form {
+       margin: 0 15px;
+       padding: 0 10px;
+      }
+
+      .btn-submit-form {
+       padding: 0 10px;
+      }
+}
+
+.btn-load {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.is-hiden {
+    display: none;
+}
+
+.content-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 23%;
+}
+
+.content-card-item{
+    margin: 10px;
+    
+    p {
+        color: $first-font-color;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (min-width: $tablet-bp-min) {
+    .content-card-item{
+       
+        flex-basis: 45%;
+    }
+  }
+  
+  @media screen and (min-width: $desktop-bp-min) {
+    .content-card-item{
+        flex-basis: 23%;
+    }
+  }
