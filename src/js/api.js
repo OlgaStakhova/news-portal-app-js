@@ -41,8 +41,3 @@ function tplArrticlsMarkup(articles) {
 function clearHtmlMarkup() {
     refs.cardList.innerHTML = '';
 }
-
-
-
-
-console.log("template", templateArt())
